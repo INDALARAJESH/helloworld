@@ -30,7 +30,7 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml 
     - name: execute jar file
-      run: sudo java -jar "/home/ubuntu/actions-runner2/_work/helloworld/helloworld/target/helloworld-1.1.jar"
+      run: sudo java -jar "/home/ubuntu/actions-runner2/_work/helloworld/helloworld/target/helloworld-1.1.jar &"
 
 
 
